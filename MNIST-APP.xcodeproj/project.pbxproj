@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		583656A12030C62200623326 /* mnist_cnn.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 583656A02030C62200623326 /* mnist_cnn.mlmodel */; };
 		5844D3F120161AD100F62600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844D3F020161AD100F62600 /* AppDelegate.swift */; };
 		5844D3F320161AD100F62600 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844D3F220161AD100F62600 /* ViewController.swift */; };
 		5844D3F620161AD100F62600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5844D3F420161AD100F62600 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		5844D3FB20161AD100F62600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5844D3F920161AD100F62600 /* LaunchScreen.storyboard */; };
 		5844D40620161AD100F62600 /* MNIST_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844D40520161AD100F62600 /* MNIST_APPTests.swift */; };
 		5844D41120161AD100F62600 /* MNIST_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844D41020161AD100F62600 /* MNIST_APPUITests.swift */; };
+		58FEC30E202FC8F600E79604 /* mnist.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 58FEC30D202FC8F600E79604 /* mnist.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		583656A02030C62200623326 /* mnist_cnn.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mnist_cnn.mlmodel; sourceTree = "<group>"; };
 		5844D3ED20161AD100F62600 /* MNIST-APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MNIST-APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5844D3F020161AD100F62600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5844D3F220161AD100F62600 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		5844D40C20161AD100F62600 /* MNIST-APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MNIST-APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5844D41020161AD100F62600 /* MNIST_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNIST_APPUITests.swift; sourceTree = "<group>"; };
 		5844D41220161AD100F62600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58FEC30D202FC8F600E79604 /* mnist.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mnist.mlmodel; path = "../../../../../ASU Spring 2018/MobileDevs/mnist.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				5844D3F420161AD100F62600 /* Main.storyboard */,
 				5844D3F720161AD100F62600 /* Assets.xcassets */,
 				5844D3F920161AD100F62600 /* LaunchScreen.storyboard */,
+				583656A02030C62200623326 /* mnist_cnn.mlmodel */,
+				58FEC30D202FC8F600E79604 /* mnist.mlmodel */,
 				5844D3FC20161AD100F62600 /* Info.plist */,
 			);
 			path = "MNIST-APP";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5844D3F320161AD100F62600 /* ViewController.swift in Sources */,
+				58FEC30E202FC8F600E79604 /* mnist.mlmodel in Sources */,
+				583656A12030C62200623326 /* mnist_cnn.mlmodel in Sources */,
 				5844D3F120161AD100F62600 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8RK7Q2BB93;
 				INFOPLIST_FILE = "MNIST-APP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Paul-Butler.MNIST-APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8RK7Q2BB93;
 				INFOPLIST_FILE = "MNIST-APP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Paul-Butler.MNIST-APP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
